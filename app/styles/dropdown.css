@@ -1,0 +1,57 @@
+/*
+  Narla Fashion — Dropdown + Slide Panels
+  Bu dosya: yalnızca animasyonları içerir.
+  globals.css içinde 1 kez import edilmelidir.
+*/
+
+/* ▼▼ Dropdown Açılma Animasyonu ▼▼ */
+@keyframes narlaDropdownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.narla-dropdown {
+  animation: narlaDropdownFade 0.18s ease-out forwards;
+  z-index: 9999;
+  }
+
+
+/* ▼▼ Sağdan Kayan Login/Register Paneli ▼▼ */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.25s ease-out forwards;
+  z-index: 9999;
+}
+
+
+/* ▼▼ Panel Kapanırken Soldan Kayma (Kullanmak istersen) ▼▼ */
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-slideOutRight {
+  animation: slideOutRight 0.25s ease-in forwards;
+}

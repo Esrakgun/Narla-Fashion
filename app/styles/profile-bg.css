@@ -1,0 +1,57 @@
+/* Default */
+.profile-bg {
+  background-position-y: -200px;
+}
+
+/* 4K TV */
+@media (min-width: 1920px) {
+  .profile-bg {
+    background-position-y: -180px;
+  }
+}
+
+/* Laptop 1440px */
+@media (max-width: 1440px) {
+  .profile-bg {
+    background-position-y: -230px;
+  }
+}
+
+/* Laptop 1280px */
+@media (max-width: 1280px) {
+  .profile-bg {
+    background-position-y: -260px;
+  }
+}
+
+/* 1151px – beyaz boşluk olan ekran */
+@media (max-width: 1151px) {
+  .profile-bg {
+    background-position-y: -10px !important;
+     background-position-x: left !important;
+  }
+}
+
+/* Tablet 900px */
+@media (max-width: 900px) {
+  .profile-bg {
+    background-position-y: -80px;
+  }
+}
+
+/* Tablet küçük 768px */
+@media (max-width: 768px) {
+  .profile-bg {
+    background-position-y: -20px;
+  }
+}
+
+/* Telefon 600px */
+@media (max-width: 600px) {
+  .profile-bg {
+    background-position-y: 0px;
+  }
+}
+
+
+

@@ -1,0 +1,156 @@
+/* Slider bölümü banner altından boşluk alsın ve ortalansın */
+.about-slider-section {
+  width: 100%;
+  max-width: 1400px;   /* slider genişliği */
+  margin: 60px auto 0 auto;  /* banner altı boşluk + ortalama */
+  padding: 0 20px;     /* sağ-sol eşit boşluk */
+}
+
+/* Slide hizalaması — karta dokunma */
+.about-slider-section .swiper-slide {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.about-slider-section .swiper {
+  padding-bottom: 40px;
+}
+
+/* ---------------------------------------------------
+   SWIPER ABOUT - NARLA THEME CUSTOM SLIDER STYLES
+---------------------------------------------------- */
+
+/* Slider genel padding (swiper dots için boşluk) */
+.about-slider-wrapper .swiper {
+  padding-bottom: 40px;
+}
+
+/* Slide hizalama – karta dokunma */
+.about-slider-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+/* ============================
+   DEFAULT MAVİ OKLARI KAPAT
+============================ */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none !important;
+}
+
+/* ============================
+   MODERN NARLA OK TASARIMI
+============================ */
+.custom-nav {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: var(--narla-nude);
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  cursor: pointer;
+}
+
+/* Hover efekti */
+.custom-nav:hover {
+  background-color: var(--narla-rose);
+  opacity: 1;
+}
+
+/* Ok sembolleri */
+.custom-nav::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 3px solid var(--narla-black);
+  border-bottom: 3px solid var(--narla-black);
+  display: inline-block;
+}
+
+/* RIGHT button */
+.swiper-button-next.custom-nav {
+  right: -50px;
+}
+.swiper-button-next.custom-nav::before {
+  transform: rotate(-45deg);
+}
+
+/* LEFT button */
+.swiper-button-prev.custom-nav {
+  left: -50px;
+}
+.swiper-button-prev.custom-nav::before {
+  transform: rotate(135deg);
+}
+
+/* ============================
+   RESPONSIVE OK AYARLARI
+============================ */
+@media (max-width: 1024px) {
+  .swiper-button-next.custom-nav {
+    right: -10px;
+  }
+  .swiper-button-prev.custom-nav {
+    left: -10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next.custom-nav {
+    right: -5px;
+    width: 40px;
+    height: 40px;
+  }
+  .swiper-button-prev.custom-nav {
+    left: -5px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .custom-nav::before {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* ============================
+   PAGINATION DOTS
+============================ */
+.swiper-pagination-bullet {
+  background: var(--narla-black) !important;
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--narla-rose) !important;
+  opacity: 1;
+}
+
+/* ============================
+   KART HOVER ANİMASYONU
+============================ */
+.about-slider-wrapper .swiper-slide .group:hover img {
+  transform: scale(1.05);
+  transition: 0.7s ease;
+}
+
+/* ----------  EKSİK OLAN TEK ŞEY  ---------- */
+.swiper {
+  pointer-events: auto;   /* swiper’ın kendisi tıklamayı yutmasın */
+}
+.custom-nav {
+  pointer-events: auto;   /* butonlar tıklanabilir olsun */
+}
+/* OKLARIN TIKLANMASI İÇİN GEREKEN SON EKSİK */
+.swiper { pointer-events: auto; }
+.custom-nav { pointer-events: auto; }

@@ -1,26 +1,156 @@
+/* ---------------------------------------------------
+   GLOBAL BASE STYLES - NARLA THEME
+---------------------------------------------------- */
+
+/* Swiper global css */
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+/* Tailwind */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Narla Theme Variables */
+@import "./styles/theme.css";
+@import "./styles/dropdown.css";
+@import "./styles/panel.css";
+@import "./styles/profile-bg.css";
+
+/* --------- RESET --------- */
+* {
+  @apply box-border m-0 p-0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html,
+body {
+  @apply w-full min-h-screen scroll-smooth antialiased transition-colors duration-300;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, "Inter", system-ui, sans-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* --------- CONTAINER --------- */
+.container {
+  @apply max-w-full mx-auto px-4 sm:px-6 lg:px-8;
+  max-width: 1600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* --------- CONTACT CONTAINER --------- */
+.contact-container {
+  @apply max-w-4xl w-full mx-auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .contact-container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* --------- HEADINGS --------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold tracking-tight;
+  color: var(--narla-black);
 }
+h1 { @apply text-3xl sm:text-4xl lg:text-5xl; }
+h2 { @apply text-2xl sm:text-3xl lg:text-4xl; }
+
+/* --------- PARAGRAPH --------- */
+p {
+  @apply text-base leading-relaxed;
+  color: var(--foreground);
+}
+
+/* --------- LINKS --------- */
+a {
+  @apply transition-colors duration-200;
+  color: var(--narla-black);
+  text-decoration: none;
+}
+a:hover { color: var(--narla-rose); }
+
+/* --------- IMAGES --------- */
+img { @apply max-w-full h-auto object-cover; }
+
+/* --------- PARALLAX --------- */
+.parallax-bg { @apply bg-fixed bg-center bg-cover; }
+
+/* --------- SCROLLBAR --------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb {
+  background-color: var(--narla-nude);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover { background-color: var(--narla-rose); }
+
+/* --------- MOBILE FONT QUICK FIX --------- */
+@media (max-width: 640px) { h1 { @apply text-2xl; } }
+
+/* =========================================================
+   GERÇEK RESPONSIVE KIRILIMLAR
+   TV → Laptop → Tablet → Telefon
+========================================================= */
+
+/* 0 – 639 px  :  TELEFON */
+@media (max-width: 639px) {
+  :root { --section-py: 2rem; }
+
+  /* banner yüksekliği */
+  .relative.h-\[150vh\] { height: 70vh !important; }
+  .relative h1 { font-size: 1.875rem !important; } /* text-3xl */
+
+  /* metin blokları */
+  .container.max-w-4xl h2 { font-size: 1.5rem !important; }   /* text-2xl */
+  .container.max-w-4xl p { font-size: 1rem !important; }      /* text-base */
+
+  /* buton */
+  .container.max-w-4xl a {
+    font-size: .875rem !important;
+    padding: .75rem 1.25rem !important;
+  }
+
+  /* slider üst boşluk */
+  .about-slider-section { margin-top: 2rem !important; }
+
+  /* kart iç boşluk */
+  .about-slider-wrapper .swiper-slide > div { padding: 1.25rem !important; }
+}
+
+/* 640 – 1023 px  :  TABLET */
+@media (min-width: 640px) and (max-width: 1023px) {
+  :root { --section-py: 3rem; }
+
+  .relative.h-\[150vh\] { height: 85vh !important; }
+  .relative h1 { font-size: 2.25rem !important; } /* text-4xl */
+
+  .container.max-w-4xl h2 { font-size: 1.875rem !important; } /* text-3xl */
+  .container.max-w-4xl p { font-size: 1.125rem !important; }  /* text-lg */
+
+  .about-slider-section { margin-top: 3rem !important; }
+}
+
+/* 1024 – 1279 px  :  LAPTOP */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  :root { --section-py: 4rem; }
+  .relative.h-\[150vh\] { height: 100vh !important; }
+}
+
+/* 1280 px ↑  :  DESKTOP / TV */
+@media (min-width: 1280px) {
+  :root { --section-py: 5rem; }
+  .relative.h-\[150vh\] { height: 120vh !important; }
+}
+
+
