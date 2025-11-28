@@ -71,7 +71,9 @@ Marka kimliği: zarafet, minimalizm, ten tonları, doğal renk paleti ve modern 
 
 # 🖼️ Ekran Görselleri:
 
-https://github.com/user-attachments/assets/70109b9c-1921-4402-8e15-3448a9058a16
+https://github.com/user-attachments/assets/70109b9c-1921-4402-8e15-3448a9058a164
+
+https://github.com/user-attachments/assets/05cf6489-beaa-4a16-bce5-20a18b780222
 
 https://github.com/user-attachments/assets/91f45875-9ea4-4591-a127-225af8763b0b
 
@@ -93,7 +95,7 @@ https://github.com/user-attachments/assets/a4739e23-bfef-4a34-993f-6c4ab701e7b1
 
 https://github.com/user-attachments/assets/8e722c16-90d4-45cc-ab75-25c7cc6fc995
 
-https://github.com/user-attachments/assets/554614b4-1ca7-4798-af8a-bcc86d6c5bb6
+
 
 
 ---
