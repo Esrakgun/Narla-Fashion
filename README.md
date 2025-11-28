@@ -65,6 +65,41 @@ Marka kimliği: zarafet, minimalizm, ten tonları, doğal renk paleti ve modern 
 
 ---
 
+# 🖼️ DEMO:
+
+---
+
+# 🖼️ Ekran Görselleri:
+
+https://github.com/user-attachments/assets/2eba196f-3f90-457b-a936-54d35787e836
+
+https://github.com/user-attachments/assets/05cf6489-beaa-4a16-bce5-20a18b780222
+
+https://github.com/user-attachments/assets/91f45875-9ea4-4591-a127-225af8763b0b
+
+https://github.com/user-attachments/assets/5225a8ae-0a4f-4a44-94c4-5348c8282fe9
+
+https://github.com/user-attachments/assets/22df5ab7-602e-4a5e-a6fe-b010edd05d2a
+
+https://github.com/user-attachments/assets/6bdae63e-4cd7-41ea-a074-903f0fec77a6
+
+https://github.com/user-attachments/assets/30a8953d-0727-48cb-ab34-189db3b2629e
+
+https://github.com/user-attachments/assets/f901ef7b-6150-4a62-85b9-70de91775df4
+
+https://github.com/user-attachments/assets/9b26af88-11c0-4176-a62c-348a2a0172f3
+
+https://github.com/user-attachments/assets/da9e0409-1227-4c4c-9274-138c77a21b76
+
+https://github.com/user-attachments/assets/a4739e23-bfef-4a34-993f-6c4ab701e7b1
+
+https://github.com/user-attachments/assets/8e722c16-90d4-45cc-ab75-25c7cc6fc995
+
+
+
+
+---
+
 # 🧩 Kullanılan Teknolojiler ve Projede Tam Olarak Ne İş Yaptıkları:
 
 1.Next.js 16
@@ -998,6 +1033,32 @@ Proje hakkında sorularınız varsa, lütfen benimle iletişime geçin.. E-posta
 
 ---
 
-# 🖼️ DEMO: 
 
-# 🖼️ Ekran Görselleri:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
