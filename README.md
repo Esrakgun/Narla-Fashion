@@ -65,7 +65,7 @@ Marka kimliği: zarafet, minimalizm, ten tonları, doğal renk paleti ve modern 
 
 ---
 
-# 🖼️ DEMO:
+# 🖼️ DEMO: https://narla-fashion-non7.vercel.app/
 
 ---
 
