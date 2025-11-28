@@ -71,31 +71,29 @@ Marka kimliği: zarafet, minimalizm, ten tonları, doğal renk paleti ve modern 
 
 # 🖼️ Ekran Görselleri:
 
-https://github.com/user-attachments/assets/2eba196f-3f90-457b-a936-54d35787e836
+https://github.com/user-attachments/assets/f4aa1d62-bfd4-4094-afde-4e792959d0c9
 
-https://github.com/user-attachments/assets/05cf6489-beaa-4a16-bce5-20a18b780222
+https://github.com/user-attachments/assets/77f05463-0310-4cf3-a991-54d52c7bc6eb
 
-https://github.com/user-attachments/assets/91f45875-9ea4-4591-a127-225af8763b0b
+https://github.com/user-attachments/assets/f44ab47f-f69b-4454-b732-9df9d03cee9c
 
-https://github.com/user-attachments/assets/5225a8ae-0a4f-4a44-94c4-5348c8282fe9
+https://github.com/user-attachments/assets/552cc39a-8827-416a-a2c5-e3f7826b401f
 
-https://github.com/user-attachments/assets/22df5ab7-602e-4a5e-a6fe-b010edd05d2a
+https://github.com/user-attachments/assets/e8707c8a-aed0-47b6-88bc-e1d7c1e0435c
 
-https://github.com/user-attachments/assets/6bdae63e-4cd7-41ea-a074-903f0fec77a6
+https://github.com/user-attachments/assets/b5eb2eda-9465-441e-bf9d-459c23543f85
 
-https://github.com/user-attachments/assets/30a8953d-0727-48cb-ab34-189db3b2629e
+https://github.com/user-attachments/assets/0b307499-3620-4a18-986e-e9648541a2d9
 
-https://github.com/user-attachments/assets/f901ef7b-6150-4a62-85b9-70de91775df4
+https://github.com/user-attachments/assets/950945b5-43c5-4d02-bfcf-7bdbb69fce37
 
-https://github.com/user-attachments/assets/9b26af88-11c0-4176-a62c-348a2a0172f3
+https://github.com/user-attachments/assets/1f530fc0-7eb1-47a7-9cf7-1817e8a2f08a
 
-https://github.com/user-attachments/assets/da9e0409-1227-4c4c-9274-138c77a21b76
+https://github.com/user-attachments/assets/4c1046bc-ae57-4408-89ae-2c5461a99ae7
 
-https://github.com/user-attachments/assets/a4739e23-bfef-4a34-993f-6c4ab701e7b1
+https://github.com/user-attachments/assets/c60b0324-df66-485e-9461-7f1042d3e9aa
 
-https://github.com/user-attachments/assets/8e722c16-90d4-45cc-ab75-25c7cc6fc995
-
-
+https://github.com/user-attachments/assets/e3d07bd0-82fb-49e9-9181-2557a127cddd
 
 
 ---
